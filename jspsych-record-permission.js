@@ -43,6 +43,7 @@ jsPsych.plugins["record-permission"] = (function() {
       console.log('getUserMedia supported.');
       getMic.addEventListener('click', async () => {        
         getMic.setAttribute('hidden', 'hidden');      
+        display_element.innerHTML = 'Please grant access now.';			
         try {
           const constraints = { audio: true };          
           let onSuccess = function (stream) {
