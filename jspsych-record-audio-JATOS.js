@@ -1,6 +1,8 @@
 /*
- * Plugin to record audio as OGG and upload to JATOS
+ * jsPsych plugin to record audio as OGG and upload to JATOS
  * Borrows code and concepts from https://www.twilio.com/blog/mediastream-recording-api
+ * Michael W. Weiss
+ * see also: www.jspsych.org (Joshua R. de Leeuw) and www.jatos.org (Lange, Kühn, & Filevich)
  */
 
 jsPsych.plugins["record-audio-JATOS"] = (function() {

@@ -1,6 +1,8 @@
 /*
- * Plugin to actively request access to microphone
+ * jsPsych plugin to actively request access to microphone
  * Borrows code and concepts from https://www.twilio.com/blog/mediastream-recording-api
+ * Michael W. Weiss
+ * see also: www.jspsych.org (Joshua R. de Leeuw)
  */
 
 jsPsych.plugins["record-permission"] = (function() {
